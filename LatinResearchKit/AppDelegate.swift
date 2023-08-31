@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ResearchKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,6 +14,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        if #available(iOS 13, *) {
+//            let navigationController = UINavigationController(navigationBarClass: nil, toolbarClass: nil)
+//            let navigationBar = navigationController.navigationBar
+//            let appearance = UINavigationBarAppearance()
+//            appearance.configureWithOpaqueBackground()
+//            appearance.backgroundColor = .gray
+//            navigationBar.standardAppearance = appearance;
+//            navigationBar.scrollEdgeAppearance = navigationBar.standardAppearance
+//            navigationBar.isTranslucent = false
+//        }
+        
         // Override point for customization after application launch.
         return true
     }
